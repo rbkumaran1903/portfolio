@@ -19,7 +19,7 @@ export default function Resume() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/resume')
+    fetch('/resume.json')
       .then(res => res.json())
       .then(data => {
         setData(data);
