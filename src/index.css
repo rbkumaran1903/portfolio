@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-premium-blue: #3b82f6;
+  --color-premium-navy: #0f172a;
+  --color-premium-bg: #f8fafc;
+  
+  --color-dark-bg: #020617;
+  --color-dark-card: #0f172a;
+  --color-dark-border: #1e293b;
+}
+
+@variant dark (&:where(.dark, .dark *));
